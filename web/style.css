@@ -1,0 +1,121 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fce4ec; /* rosa bebê claro */
+    color: #4a4a4a;
+}
+
+.login-container, .container {
+    max-width: 640px;
+    margin: 60px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.login-container:hover, .container:hover {
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+    transform: translateY(-2px);
+}
+
+h1 {
+    text-align: center;
+    color: #ad1457;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.form-group {
+    margin-bottom: 24px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #880e4f;
+    font-size: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #e1bee7;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: #fff0f5;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+input:focus {
+    border-color: #f48fb1;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(244, 143, 177, 0.3);
+}
+
+.login-button, .logout-button {
+    width: 100%;
+    padding: 14px;
+    background-color: #f48fb1;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.login-button:hover, .logout-button:hover {
+    background-color: #ec407a;
+    transform: scale(1.02);
+}
+
+.footer {
+    text-align: center;
+    margin-top: 50px;
+    color: #a7a7a7;
+    font-size: 14px;
+}
+
+.posts-container {
+    margin-top: 50px;
+}
+
+.post {
+    background-color: #ffffff;
+    padding: 24px;
+    margin-bottom: 24px;
+    border-radius: 12px;
+    border-left: 6px solid #f48fb1;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.04);
+}
+
+.post h2 {
+    margin-top: 0;
+    color: #880e4f;
+    font-size: 22px;
+}
+
+.post .date {
+    color: #b06b8a;
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+
+.post .stats {
+    font-size: 15px;
+    color: #7e7e7e;
+    margin-top: 12px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
